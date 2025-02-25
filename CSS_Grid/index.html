@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grid
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <div class="container">
+            <div class="main">
+                <h1>Course Registration</h1>
+            </div>
+            <!--first name-->
+            <div class="row">
+
+                <div class="column-25">
+                    <label for="fname">First Name</label>
+                </div>
+
+                <div class="column-75">
+                    <input type="text"  placeholder="Enter first name" required>
+                </div>
+            </div>
+
+            <!--last name-->
+            <div class="row">
+
+                <div class="column-25">
+                    <label for="lname">Last Name</label>
+                    
+                </div>
+
+                <div class="column-75">
+                    <input type="text"  placeholder="Enter Last name" required>
+                </div>
+            </div>
+
+        
+            <!--course-->
+
+            <div class="row">
+
+                <div class="column-25">
+                    <label for="courseName">Course</label>
+                </div>
+
+                <div class="column-75">
+                    <select name="courses" id="course">
+                        <option value=""></option>
+                        <option value="Java">Java</option>
+                        <option value="Web Development"> Web Development</option>
+                        <option value="BackEnd Development">BackEnd Development</option>
+                        <option value="Python">Python</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <!--Email-->
+            <div class="row">
+
+                <div class="column-25">
+                    <label for="Email">Email</label>
+                </div>
+
+                <div class="column-75">
+                    <input type="email"  placeholder="enter the email" required>
+                </div>
+            </div>
+
+
+            <!--register-->
+            <div class="button-row">
+                <input type="submit" value="Register" class="submit">
+            </div>
+
+        </div>
+
+
+    </body>
+</html>

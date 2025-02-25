@@ -1,0 +1,26 @@
+.container{
+    display: inline-flex;
+    border: 2px solid yellow;
+    gap: 2px;
+    flex-direction: row;/* row, row-reverse, column-reverse are the properties.*/
+    flex-wrap:wrap;/*adjudt the content by adjusting row items to next line.*/
+
+}
+
+/*.container > *{
+    flex-basis: 100px;/* will work only for column
+}*/
+/* the order is used to arrange the row or column items  range is form negative to positive 
+by default it will be 0 for all. */
+.Red{
+    order: 1;
+    background-color: red;
+    
+}
+.Blue{
+    background-color: blue;
+}
+
+.Green{
+    background-color: green;
+}

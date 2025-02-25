@@ -1,0 +1,49 @@
+.container{
+    
+    display: grid;
+    grid-column: auto;
+    grid-column-start:2 ;
+    width: 50%;
+    height:500px;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+   
+   
+}
+
+.main{
+    background-color: rgb(13, 169, 5);
+    color: white;
+    width: 100%;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+}
+/*
+CSS grid Layout offers grid based layout with rows and columns.
+
+Allows Developers to create complex web layouts.
+used in 2 diemensional layout.
+
+*/
+
+.row{
+    align-content:space-around;
+    
+}
+
+.column-25{
+    float: left;
+    width: 25%;
+}
+.column-75{
+    float: right;
+    width: 75%;
+}
+
+input[Register]{
+
+    background-color: greenyellow;
+    width: 100px;
+    height: 30px;
+}
