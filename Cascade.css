@@ -1,0 +1,59 @@
+/*
+
+in CSS the rules work based on certain properties. they are
+
+positioning.
+************
+ in positioning if we assign 2 colors to same element the property that is applied last will be applied to 
+ the element.
+ example : li{
+                color: blue;
+                color:red; //red will be applied to the element as it is the last one in order.
+            }
+
+specificity
+-----------
+  it is like which rule has more priority over the other for this
+  1. id  #ElmenetId{}
+  2. class .main-class{}
+  3. attribute  li[draggable]{}
+  4. element li{}
+out of 4 id has more specificity if we want change a property then the property inside the id will take into affect.
+
+type
+~~~~~
+in CSS the styling can be applied in 3 ways inline, internal, external.
+inline will have more specificity followed by internal,external.
+
+
+Importance
+==========
+while applying css property to an element if we "!important" this will mark that property as important and
+no matter how rules are applied this will be more specific.
+
+*/
+
+h1{
+    color: blue  !important; /* this will mark this tag as important and whatever other rules this will be the final output.*/
+    
+}
+
+h1,p{
+    color: red; /* here red property is applied to the target element even-though we used different color before.*/
+}
+
+
+h1[draggable]{
+    color: rgb(137, 4, 137);
+}
+
+
+.header-class{
+    color: green;
+}
+
+#header_id{
+    color:yellowgreen; /* this tag will have more specificity compared to above 2 tags.*/
+}
+
+

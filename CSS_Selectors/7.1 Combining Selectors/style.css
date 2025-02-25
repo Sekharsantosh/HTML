@@ -1,0 +1,30 @@
+/* Write your code here: */
+
+/* this type of choosing selectors is called grouping we can also use other combinations like id,class,element or id,element and so on.*/
+h1,h2{
+    color: blueviolet;
+}
+
+
+/* this is parent , child class selector applied only to direct descendants of the parent*/
+/* the parent div has paragraph tag as child in-order to target that tag we use this type of selector.*/
+
+.box  > .done { /* or .box > p this works as well*/
+    color:firebrick; /*Only direct descendants will get affected by this property*/
+}
+
+/*this is descendant selector.*/
+.box ul{
+    color: blue;
+
+}
+
+/* to be more specific about an element we use chaining selector*/
+/*first one should always be element*/
+li.done{
+    color:seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}

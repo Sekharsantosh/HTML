@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Forms</title></head>
+    <link rel="stylesheet" href="forms.css">
+    <body>
+        
+        <div class="MainDiv">
+        <div class="secondDiv">
+            <h3 style="text-align: center;">Course Registration</h3>        
+            <form action="" autocomplete="on" >
+            <label>First Name</label><br>
+            <input type="text" id="d1" required autofocus><br><br>
+
+            <label for="Last Name">LastName</label><br>
+            <input type="text" id="d2" required><br><br>
+            <label for="course">Course Name</label><br>
+            <select name="types of courses" id="r12">
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+            </select><br><br>
+            <input type="checkbox" id="d3" required><label>Click on check box to agree to terms and services.</label><br>
+            <br>
+            <label>*Why do you want to pursue this course?</label><br>
+            <textarea type="message" rows="10" columns="50" required>
+            </textarea><br><br>
+            <button onclick="ClickButton(d3.value,d2.value,d1.value)">Submit</button>
+            <script>
+                function ClickButton(d3,d2,d1){
+                    var name1=d1;
+                    var name2=d2;
+                    var radio=d3;
+                    if(name1.length>0 && name2.length>0 ){
+                       window.alert("You have Successfully registered for this course.");
+                    }
+                    else{
+                        window.alert("fill the details");
+                    }
+                }
+
+               
+            </script>
+        </form>
+    </div>
+        </div>
+    </body>
+</html>

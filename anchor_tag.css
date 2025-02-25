@@ -1,0 +1,35 @@
+.bodyTag{
+      background-color: #0a5fc7;
+      color: white;
+      font-family: Cambria;
+      text-align: center;
+}
+
+.A{
+    color: white;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: yellow;
+    font-style: oblique;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+a:active{
+    color:green;
+    text-decoration: underline;
+}
+
+
+button:hover{
+  color: blue;
+  background-color: red;
+}

@@ -1,0 +1,20 @@
+.MainDiv{
+    padding-top:10%; 
+    padding-left: 25%;
+    padding-bottom: 15%; 
+    background-image: url('https://img.freepik.com/premium-photo/empty-chairs-tables-row_1048944-19298211.jpg?w=1060');
+    height: auto; 
+    width: auto; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: scroll;
+}
+.secondDiv{
+     border: 2px solid black;
+     width: 400px; 
+     padding-left: 2%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     border-radius: 4%; 
+     background-color: whitesmoke;
+}

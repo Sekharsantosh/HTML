@@ -1,0 +1,16 @@
+h1{
+    color: rgb(56, 101, 101);
+    border: 20px solid;
+    
+    background-color: azure;
+    background-image: url('image_1.png');
+    background-position:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 4cqmax;
+
+}
